@@ -11,3 +11,23 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+wired-card {
+  background: lightcyan;
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  display: block;
+}
+
+wired-button {
+  background: yellow;
+  color: red;
+  margin: 8px;
+}
